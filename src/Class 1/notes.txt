@@ -1,0 +1,15 @@
+What is Components?
+A feature which is build and is rendered in the main file.
+
+How to make a component & what is jsx file means?
+JSX: Javascript Extensible
+We use this because we can write Js & Html both in a single file.
+
+
+Which components we use?
+Functional component
+
+Export & import
+
+How to use JS in HTML?
+-- we will use {varName}
