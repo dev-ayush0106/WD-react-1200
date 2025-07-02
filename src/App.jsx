@@ -5,6 +5,8 @@ import './App.css'
 import First, { Detail, Firstone,FirstTwo } from './Class 1/First';
 import Second from './Class 2/SEcond'
 import Product from './Class 2/Product'
+import Third from './Class 3/Third';
+import ThirdOne from './Class 3/ThirdOne';
 
 function App() {
   let name="Ayush";
@@ -45,9 +47,13 @@ function App() {
       <Second detail={specs2}/>
       <Second detail={specs3}/> */}
 
-      <Product detail={productDetail1}/>
+      {/* <Product detail={productDetail1}/>
       <Product detail={productDetail2}/>
-      <Product detail={productDetail3}/>
+      <Product detail={productDetail3}/> */}
+
+      {/* Class 3 */}
+      {/* <Third/> */}
+      <ThirdOne/>
     </>
   )
 }

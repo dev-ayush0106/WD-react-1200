@@ -1,0 +1,7 @@
+State Managment : useState()
+useState is a hook which is used to handle this state of a attribute or an object.
+
+Syntax of useState
+let [intialvalue,desiredValue]=useState(intialvalue)
+
+What is Conditional Formaating and how it is used with useState?
