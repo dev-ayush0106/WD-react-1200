@@ -7,6 +7,8 @@ import Second from './Class 2/SEcond'
 import Product from './Class 2/Product'
 import Third from './Class 3/Third';
 import ThirdOne from './Class 3/ThirdOne';
+import Fourth from './Class 4/Fourth';
+import FormHandle from './Class 4/FormHandle';
 
 function App() {
   let name="Ayush";
@@ -53,7 +55,11 @@ function App() {
 
       {/* Class 3 */}
       {/* <Third/> */}
-      <ThirdOne/>
+      {/* <ThirdOne/> */}
+
+      {/* Class 4 */}
+      {/* <Fourth/> */}
+      <FormHandle/>
     </>
   )
 }

@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.size{
+    font-size: 2.5rem;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
