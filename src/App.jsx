@@ -10,6 +10,8 @@ import ThirdOne from './Class 3/ThirdOne';
 import Fourth from './Class 4/Fourth';
 import FormHandle from './Class 4/FormHandle';
 import Todo from './Class 5/Todo';
+import Sixth from './Class 6/Sixth';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   let name="Ayush";
@@ -63,7 +65,9 @@ function App() {
       {/* <FormHandle/> */}
 
       {/* Class 5 */}
-      <Todo/>
+      {/* <Todo/> */}
+
+      <Sixth/>
     </>
   )
 }
