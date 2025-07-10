@@ -65,9 +65,9 @@ function App() {
       {/* <FormHandle/> */}
 
       {/* Class 5 */}
-      {/* <Todo/> */}
+      <Todo/>
 
-      <Sixth/>
+      {/* <Sixth/> */}
     </>
   )
 }
