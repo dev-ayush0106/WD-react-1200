@@ -12,6 +12,7 @@ import FormHandle from './Class 4/FormHandle';
 import Todo from './Class 5/Todo';
 import Sixth from './Class 6/Sixth';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MainFile from './Class 7/Routes/MainFile';
 
 function App() {
   let name="Ayush";
@@ -65,9 +66,12 @@ function App() {
       {/* <FormHandle/> */}
 
       {/* Class 5 */}
-      <Todo/>
+      {/* <Todo/> */}
 
       {/* <Sixth/> */}
+
+      {/* Class 7 */}
+      <MainFile/>
     </>
   )
 }
