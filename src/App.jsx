@@ -13,6 +13,7 @@ import Todo from './Class 5/Todo';
 import Sixth from './Class 6/Sixth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainFile from './Class 7/Routes/MainFile';
+import Task from './Class 8/Task';
 
 function App() {
   let name="Ayush";
@@ -71,7 +72,9 @@ function App() {
       {/* <Sixth/> */}
 
       {/* Class 7 */}
-      <MainFile/>
+      {/* <MainFile/> */}
+
+      <Task/>
     </>
   )
 }
