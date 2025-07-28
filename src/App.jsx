@@ -14,6 +14,15 @@ import Sixth from './Class 6/Sixth';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainFile from './Class 7/Routes/MainFile';
 import Task from './Class 8/Task';
+import Framer from './Class 9/Framer';
+import ApiFetch from './Class 10/ApiFetch';
+import Pagination from './Class 11/Pagination';
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import ProductDetails from './Class 11/ProductDetails';
+import Redux from './Class 12/Redux';
+import Navbar from './Class 11/Navbar';
+import Cart from './Class 11/Cart';
+
 
 function App() {
   let name="Ayush";
@@ -38,6 +47,22 @@ function App() {
     name:"Air Fryer",
     price:10000
   }
+
+  let pageRoutes=createBrowserRouter([
+    {
+      path:"/",
+      element:<><Navbar/><Pagination/></>
+    },
+    {
+      path:"/products/:id",
+      element:<ProductDetails/>
+    },
+    {
+      path:"/products/:id/cart",
+      element:<Cart/>
+    }
+
+  ])
   return (
     <>
     {/* Class 1 */}
@@ -74,7 +99,14 @@ function App() {
       {/* Class 7 */}
       {/* <MainFile/> */}
 
-      <Task/>
+      {/* <Task/> */}
+      {/* <Framer/> */}
+
+        {/* <ApiFetch/> */}
+      {/* <Pagination/> */}
+       <RouterProvider router={pageRoutes}/> 
+
+      { /*<Redux/>*/}
     </>
   )
 }
